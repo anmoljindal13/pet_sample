@@ -13,7 +13,7 @@ module.exports = {
 
     ganache: {
 			provider: function() {
-				var mnemonic = "advice side similar regret item pottery neutral virtual mail usage real risk";//put ETH wallet 12 mnemonic code	
+				var mnemonic = "advice side similar ...";//put ETH wallet 12 mnemonic code	
 				return new HDWalletProvider(mnemonic, "HTTP://127.0.0.1:7547");
 			  },
 			  network_id: '5777', 
